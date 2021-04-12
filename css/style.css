@@ -1,3 +1,9 @@
+/* 
+	Yellowgreen == Predbežná ŠTC farba, je to placeholder, nechcelo sa mi pozerať naozajstnú ;)
+
+*/
+
+
 body{
 	font-family: sans-serif;
 }
@@ -74,5 +80,38 @@ nav a{
 }
  
 nav a:hover{
-	color: rgb(125, 205, 50);
+	color: yellowgreen;
+}
+
+.pos-rel{
+	position: relative;
+}
+
+main h1{
+	font-weight: normal;
+	color: #fff;
+	background: yellowgreen;
+	display: inline-block;
+	padding: 25px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	font-size: 3rem;
+}
+
+main p{
+	color: #202020;
+
+	font-size: 1.14rem;
+	line-height: 1.5;
+}
+
+.background-logo{
+	position: absolute;
+	right: 20px;
+	bottom: -50px;
+	height: 400px;
+	z-index: -1000;
 }
