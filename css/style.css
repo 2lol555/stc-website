@@ -4,7 +4,7 @@
 
 
 body{
-	font-family: sans-serif;
+	font-family: "Segoe UI", sans-serif;
 }
 
 .group:before,
@@ -78,7 +78,7 @@ nav a{
 }
  
 nav a:hover{
-	color: yellowgreen;
+	color: #7BBF32;
 }
 
 .pos-rel{
@@ -88,7 +88,7 @@ nav a:hover{
 main h1{
 	font-weight: normal;
 	color: #fff;
-	background: yellowgreen;
+	background: #7BBF32;
 	display: inline-block;
 	padding: 25px;
 	border-radius: 20px;
@@ -134,12 +134,12 @@ footer h3{
 	display: none;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1030px) {
 	.navlinks a{
 		padding-right: 25px;
 	}
 }
-@media (max-width: 850px) {
+@media (max-width: 870px) {
 	.navicon{
 		display:none;
 	}
@@ -149,7 +149,7 @@ footer h3{
 	}
 }
 
-@media (max-width: 775px) {
+@media (max-width: 785px) {
 	.navlinks a{
 		display: block;
 		padding-right: 0px;
@@ -174,7 +174,7 @@ footer h3{
 	}
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
 	main p{
 		text-align: justify;
 	}
