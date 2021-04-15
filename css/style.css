@@ -81,6 +81,10 @@ nav a:hover{
 	color: #7BBF32;
 }
 
+nav a i:hover{
+	color: #aaaaaa;
+}
+
 .pos-rel{
 	position: relative;
 }
