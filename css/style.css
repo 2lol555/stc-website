@@ -229,3 +229,25 @@ h2{
 .spacer{
 	height: 100px;
 }
+
+h1{
+	margin-bottom: 0px;
+}
+
+a{
+	color: #7BBF32;
+}
+.ai-button{
+	display: inline-block;
+	text-align: center;
+	background: #e6e6e6;
+	padding: 20px;
+	border-radius: 15px;
+
+	margin: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: #202020;
+}
