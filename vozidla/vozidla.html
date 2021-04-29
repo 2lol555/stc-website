@@ -10,8 +10,8 @@
 	<script src="https://kit.fontawesome.com/0b9d1071cf.js" crossorigin="anonymous"></script>
 
 	<!--Our stylesheets-->
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<!--Google Fonts, Source Sans Pro-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -31,7 +31,7 @@
 	<header>
 		<div class="group squeeze">
 			<a href="https://www.microsoft.com/" target="_blank">
-				<img src="img/microsoft-logo.png" alt="Microsoft" class="float-left logo-ms">
+				<img src="../img/microsoft-logo.png" alt="Microsoft" class="float-left logo-ms">
 			</a>
 			<h1 class="float-right stc-hide">Študentské Trénerské Centrum</h1>
 			<h1 class="float-right stc">ŠTC</h1>
@@ -40,7 +40,7 @@
 		<nav>
 			<div class="squeeze group">
 				<div class="navlinks float-left">
-					<a href="#">Úvod</a>
+					<a href="/index.html">Úvod</a>
 					<a href="https://stcmicrosoft.azurewebsites.net/o-programe/" target="_blank">O programe</a>
 					<a href="https://stcmicrosoft.azurewebsites.net/studenti/absolventi.php" target="_blank">Absolventi</a>
 					<a href="https://blog.vzdelavameprebuducnost.sk/" target="_blank">Blog</a>
@@ -55,24 +55,33 @@
 		</nav>
 	</header>
 	<main>
-		<div class="squeeze pos-rel">
-			<h1>Naštartuj svoju kariéru!</h1>
-			<p>
-				Študentské Trénerské Centrum (ŠTC) je program pre stredoškolských študentov, ktorí sa chcú zdokonaľovať v IT a majú záujem poskytovať nadobudnuté znalosti ďalším. Členovia programu majú možnosť stretávať sa s inšpiratívnymi osobnosťami a zúčastňovať sa zaujímavých akcií, ako sú rôzne konferencie, či IT semináre. Študenti ŠTC boli vybraní ako najlepší z rady záujemcov, a tým získali veľmi zaujímavé možnosti pre svoj profesný rast. Organizátorom aktivity je spoločnosť Microsoft, ktorá pripravuje študentov na zaujímavú pracovnú kariéru a na trh práce. Cieľom celého programu je pripraviť študentov v oblasti lektorskej činnosti, technológií Office, programovania a správy sietí tak, aby ich ďalšia cesta napomohla k postupu medzi elitných študentov Microsoft Student Partner.
-			</p>
-			<img src="img/stcpanak.png" alt="Logo ŠTC" class="background-logo">
-		</div>
-		<div class="nase_projekty squeeze">
-			<h1>AI Modely na rozoznávanie obrázkov</h1>
-			<br>
-			<a href="vesmir/vesmir.html">Vesmír</a>
-			<a href="vozidla/vozidla.html">Vozidlá</a>
-		</div>
+		<center>
+			<div class="squeeze pos-rel center">
+				<div id="nadpis">
+					<h1>Klasifikácia vozidiel</h1>
+				</div>
+
+				<div id="main">
+					<div class="vysledky">
+						<h2>Vyskúšajte si to</h2>
+						<input type="file" name="data" id="data" class="file-input"/>
+						<br />
+						<img id="photo" width="150" height="150" hidden />
+						<p id="img_data"></p>
+						<hr>
+						<h2>Výsledok</h2>
+						<p id="output"></p>
+					</div>
+
+				</div>
+				<script src="js/api_setup.js"></script>
+			</div>
+		</center>
 	</main>
 	<div class="spacer"></div>
 	<footer class="group">
 		<div class="squeeze">
-			<a href="https://www.microsoft.com/" target="_blank"><img src="img/microsoft-logo.png" alt="Microsoft" class="float-left"></a>
+			<a href="https://www.microsoft.com/" target="_blank"><img src="../img/microsoft-logo.png" alt="Microsoft" class="float-left"></a>
 			<h3 class="float-right">Tobiáš Frajka, Samuel Polakovič, Tomáš Zajíc</h3>
 		</div>
 		
