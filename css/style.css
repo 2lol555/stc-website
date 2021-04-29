@@ -65,7 +65,7 @@ nav{
 }
 
 nav a{
-	margin: 10px, 20px;
+	margin: 10px 20px;
 
 	color: white;
 	text-decoration: none;
@@ -151,7 +151,7 @@ footer h3{
 @media (max-width: 785px) {
 	.navlinks a{
 		display: block;
-		padding-right: 0px;
+		padding-right: 0;
 		
 	}
 
@@ -189,7 +189,7 @@ footer h3{
 }
 
 #photo{
-	margin: 10px auto 0px;
+	margin: 10px auto 0;
 	height: 300px;
 	width: auto;
 }
