@@ -115,7 +115,9 @@ main p{
 
 footer{
 	background-color: #f2f2f2;
-	margin-top: 20%;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 footer img{
@@ -221,5 +223,9 @@ hr{
 }
 
 h2{
-	margin: 0;
+	margin-top: 0;
+}
+
+.spacer{
+	height: 100px;
 }
